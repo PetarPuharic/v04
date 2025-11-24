@@ -19,7 +19,10 @@ int main()
 		std::cout << "Enter animal id (1 to 3) (0 to end): ";
 		std::cin >> id;
 
-		if ((id < 1 || id > 3) && id != 0){
+		if (id == 0)
+			break;
+
+		if (id < 1 || id > 3){
 			std::cout << "Invalid id!" << std::endl;
 		continue;
 		}

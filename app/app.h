@@ -19,19 +19,16 @@ namespace vsite::oop::v4
 	{
 	public:
 		unsigned int legs() const override;
-		virtual ~insect() = default;
 	};
 	class bird : public animal
 	{
 	public:
 		unsigned int legs() const override;
-		virtual ~bird() = default;
 	};
 	class spider : public animal
 	{
 	public:
 		unsigned int legs() const override;
-		virtual ~spider() = default;
 	};
 
 
